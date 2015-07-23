@@ -1,0 +1,19 @@
+.my_list{
+  position:relative;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.footer{
+  text-align: center;
+}
+
+.login{
+  text-align: center;
+}
+
+.browse{
+  text-align: center;
+}
