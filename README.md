@@ -1,4 +1,4 @@
-#How to add content (why-rad example)
+#How to add faq page/tab (why-rad example)
 
 ###in ** routes.js ** add: 
 ```
