@@ -93,3 +93,13 @@ a{
 .arrow:hover{
   opacity: .7;
 }
+
+/* SMALL SCREENS*/
+
+@media screen and (max-width: 768px) {
+  ol {
+      margin-top: 0;
+      margin-bottom: 10px;
+      margin-left: -15px;
+  }
+}
