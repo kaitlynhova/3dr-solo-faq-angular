@@ -5,18 +5,25 @@ angular.module('myApp.routes', [])
 		templateUrl: 'partials/home-partial.html',
 		controller: 'HomeCTL'
 	});
-  $routeProvider.when('/why-awesome', {
-		templateUrl: 'partials/why-awesome-partial.html',
-		controller: 'why-awesomeCTL'
-	});
-  $routeProvider.when('/why-phu', {
-		templateUrl: 'partials/why-phu-partial.html',
-		controller: 'why-phuCTL'
+
+  $routeProvider.when('/no-video', {
+		templateUrl: 'partials/no-video-partial.html',
+		controller: 'no-videoCTL'
 	});
 
-  $routeProvider.when('/why-rad', {
-    templateUrl: 'partials/why-rad-partial.html',
-    controller: 'why-radCTL'
+  $routeProvider.when('/waiting-for-gps', {
+    templateUrl: 'partials/waiting-for-gps-partial.html',
+    controller: 'waiting-for-gpsCTL'
+  });
+
+  $routeProvider.when('/magnetic-interference', {
+    templateUrl: 'partials/magnetic-interference-partial.html',
+    controller: 'magnetic-interferenceCTL'
+  });
+
+  $routeProvider.when('/range', {
+    templateUrl: 'partials/range-partial.html',
+    controller: 'rangeCTL'
   });
 
   $routeProvider.otherwise({

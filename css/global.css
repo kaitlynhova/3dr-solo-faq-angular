@@ -1,15 +1,18 @@
-/* @import must be at top of file, otherwise CSS will not work */
+/* FONTS */
 @import url("//hello.myfonts.net/count/2ec104");
 
-
 @font-face {font-family: 'HelveticaNeueLTPro-Lt';src: url('../webfonts/2EC104_0_0.eot');src: url('../webfonts/2EC104_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2EC104_0_0.woff2') format('woff2'),url('../webfonts/2EC104_0_0.woff') format('woff'),url('../webfonts/2EC104_0_0.ttf') format('truetype'),url('../webfonts/2EC104_0_0.svg#wf') format('svg');}
-
 
 @font-face {font-family: 'HelveticaNeueLTPro-Md';src: url('../webfonts/2EC104_1_0.eot');src: url('../webfonts/2EC104_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2EC104_1_0.woff2') format('woff2'),url('../webfonts/2EC104_1_0.woff') format('woff'),url('../webfonts/2EC104_1_0.ttf') format('truetype'),url('../webfonts/2EC104_1_0.svg#wf') format('svg');}
 
 .list-title{
   font-family: HelveticaNeueLTPro-Lt;
 }
+p{
+  color: #666767;
+}
+
+/* GENERAL */
 
 .my_list{
   position:relative;
@@ -29,15 +32,18 @@ ul{
 
 .browse{
   text-align: center;
-}a{
+}
+
+a{
   color: #7dc241 !important;
   text-decoration: none !important;
   font-weight: 700;
 }
 
+/* FAQ PAGE SECTION */
 
 .faq-item{
-  padding: 15px 0px;
+  padding: 15px 10px 10px 0px;
   border-bottom: 3px solid #f1f1f1;
 }
 
@@ -57,10 +63,6 @@ ul{
   font-family: helvetica;
   font-size: 18px;
   font-weight: 200;
-}
-
-p{
-  color: #666767;
 }
 
 .arrow{

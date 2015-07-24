@@ -21,14 +21,6 @@ angular.module('myApp.directives', [])
 	};
 })
 
-.directive("why-awesome", function(){
-	return {
-		restrict: "E",
-		templateUrl: "partials/page-2-partial.html",
-		controller: "why-awesomeCTL"
-	};
-})
-
 .directive("why-phu", function(){
 	return {
 		restrict: "E",

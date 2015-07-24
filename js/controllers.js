@@ -20,19 +20,19 @@ angular.module('myApp.controllers', [])
 
 })
 
-.controller('why-awesomeCTL', function(){
+.controller('no-videoCTL', function(){
 
 })
 
-.controller('why-phuCTL', function(){
+.controller('waiting-for-gpsCTL', function(){
 
 })
 
-.controller('why-radCTL', function(){
+.controller('magnetic-interferenceCTL', function(){
 
 })
 
-.controller('FooterCTL', function(){
+.controller('rangeCTL', function(){
 
 })
 
