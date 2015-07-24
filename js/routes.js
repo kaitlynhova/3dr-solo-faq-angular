@@ -5,14 +5,20 @@ angular.module('myApp.routes', [])
 		templateUrl: 'partials/home-partial.html',
 		controller: 'HomeCTL'
 	});
-  $routeProvider.when('/page2', {
-		templateUrl: 'partials/page-2-partial.html',
-		controller: 'Page2CTL'
+  $routeProvider.when('/why-awesome', {
+		templateUrl: 'partials/why-awesome-partial.html',
+		controller: 'why-awesomeCTL'
 	});
-  $routeProvider.when('/page3', {
-		templateUrl: 'partials/page-3-partial.html',
-		controller: 'Page3CTL'
+  $routeProvider.when('/why-phu', {
+		templateUrl: 'partials/why-phu-partial.html',
+		controller: 'why-phuCTL'
 	});
+
+  $routeProvider.when('/why-rad', {
+    templateUrl: 'partials/why-rad-partial.html',
+    controller: 'why-radCTL'
+  });
+
   $routeProvider.otherwise({
 		redirectTo:'/'
 	}); //If 404, send to homepage

@@ -20,11 +20,15 @@ angular.module('myApp.controllers', [])
 
 })
 
-.controller('Page2CTL', function(){
+.controller('why-awesomeCTL', function(){
 
 })
 
-.controller('Page3CTL', function(){
+.controller('why-phuCTL', function(){
+
+})
+
+.controller('why-radCTL', function(){
 
 })
 
