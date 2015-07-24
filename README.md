@@ -1,6 +1,6 @@
 #How to run the project
 
-Pull down the project and run a [MAMP](https://www.mamp.info/en/)server on the folder. 
+Pull down the project and run a [MAMP](https://www.mamp.info/en/) server on the folder. 
 The project should be visible at http://localhost:8888/ on your computer.
 
 #How to add faq page/tab (why-rad example)
