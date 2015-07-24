@@ -30,5 +30,8 @@ $routeProvider.when('/why-rad', {
 ```
 ###Add this new file to Partials folder:
 
+
 why-rad-partial.html
+
+^^in this file, you can copy any other "what-evs-partial.html" and replace with whatever code you want
 
