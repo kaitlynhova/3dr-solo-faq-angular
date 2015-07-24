@@ -3,7 +3,7 @@
 ###in ** routes.js ** add: 
 ```
 $routeProvider.when('/why-rad', {
-  templateUrl: 'partials/**why-rad-partial.html**',
+  templateUrl: 'partials/why-rad-partial.html',
   controller: ‘why-radCTL'
 });
 ```
