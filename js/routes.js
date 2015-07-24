@@ -5,13 +5,13 @@ angular.module('myApp.routes', [])
 		templateUrl: 'partials/home-partial.html',
 		controller: 'HomeCTL'
 	});
-  $routeProvider.when('/using-solo', {
-		templateUrl: 'partials/page-2-partial.html',
-		controller: 'using-soloCTL'
+  $routeProvider.when('/why-awesome', {
+		templateUrl: 'partials/why-awesome-partial.html',
+		controller: 'why-awesomeCTL'
 	});
-  $routeProvider.when('/page3', {
-		templateUrl: 'partials/page-3-partial.html',
-		controller: 'Page3CTL'
+  $routeProvider.when('/why-phu', {
+		templateUrl: 'partials/why-phu-partial.html',
+		controller: 'why-phuCTL'
 	});
   $routeProvider.otherwise({
 		redirectTo:'/'

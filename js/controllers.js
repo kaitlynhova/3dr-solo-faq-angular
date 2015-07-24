@@ -20,11 +20,11 @@ angular.module('myApp.controllers', [])
 
 })
 
-.controller('using-soloCTL', function(){
+.controller('why-awesomeCTL', function(){
 
 })
 
-.controller('Page3CTL', function(){
+.controller('why-phuCTL', function(){
 
 })
 

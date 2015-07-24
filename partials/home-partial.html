@@ -1,6 +1,26 @@
 
-  <ul class="nav navbar-nav">
-    <li class="header_item" ng-class="{active: isActive('/')}"><a href="#/">Angular Site</a></li>
-    <li class="header_item" ng-class="{active: isActive('/using-solo')}"><a href="#/using-solo">Using Solo</a></li>
-    <li class="header_item" ng-class="{active: isActive('/page3')}"><a href="#/page3">Page 3</a></li>
-  </ul>
+  <div class="container">
+
+    <!-- ROW ITEM -->
+    <div class="row faq-item" ng-class="{active: isActive('/why-awesome')}">
+      <div class="col-xs-10"> <p>Why awesome?</p></div>
+      <div class="col-xs-2">
+        <a href="#/why-awesome">
+          <img class="arrow" src="img/angle-right.svg">
+        </a>
+      </div>
+    </div>
+    <!-- /ROW ITEM-->
+
+    <!-- ROW ITEM -->
+    <div class="row faq-item" ng-class="{active: isActive('/why-phu')}">
+      <div class="col-xs-10"> <p>Why is Phu awesome?</p></div>
+      <div class="col-xs-2">
+        <a href="#/why-phu">
+          <img class="arrow" src="img/angle-right.svg">
+        </a>
+      </div>
+    </div>
+    <!-- /ROW ITEM-->
+
+  </div>

@@ -21,19 +21,19 @@ angular.module('myApp.directives', [])
 	};
 })
 
-.directive("using-solo", function(){
+.directive("why-awesome", function(){
 	return {
 		restrict: "E",
 		templateUrl: "partials/page-2-partial.html",
-		controller: "using-soloCTL"
+		controller: "why-awesomeCTL"
 	};
 })
 
-.directive("page3", function(){
+.directive("why-phu", function(){
 	return {
 		restrict: "E",
 		templateUrl: "partials/page-3-partial.html",
-		controller: "Page3CTL"
+		controller: "why-phuCTL"
 	};
 })
 

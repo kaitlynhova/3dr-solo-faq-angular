@@ -16,4 +16,53 @@ ul{
 
 .browse{
   text-align: center;
+}a{
+  color: #7dc241 !important;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+
+.faq-item{
+  padding: 15px 0px;
+  border-bottom: 3px solid #f1f1f1;
+}
+
+.faq-item p {
+  position: relative;
+  top: 3px;
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+.faq-content{
+  padding: 15px 0px;
+}
+
+.faq-content p {
+  position: relative;
+  top: 3px;
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+p{
+  color: #666767;
+}
+
+.arrow{
+  max-width: 30px;
+  float: right;
+  border: 2px solid #7dc241;
+  border-radius: 100px;
+  transition: .5s;
+}
+
+.left{
+  float: left;
+}
+
+.arrow:hover{
+  opacity: .7;
 }
