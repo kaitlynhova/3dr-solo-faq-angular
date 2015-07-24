@@ -5,9 +5,9 @@ angular.module('myApp.routes', [])
 		templateUrl: 'partials/home-partial.html',
 		controller: 'HomeCTL'
 	});
-  $routeProvider.when('/page2', {
+  $routeProvider.when('/using-solo', {
 		templateUrl: 'partials/page-2-partial.html',
-		controller: 'Page2CTL'
+		controller: 'using-soloCTL'
 	});
   $routeProvider.when('/page3', {
 		templateUrl: 'partials/page-3-partial.html',

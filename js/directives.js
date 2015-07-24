@@ -21,11 +21,11 @@ angular.module('myApp.directives', [])
 	};
 })
 
-.directive("page2", function(){
+.directive("using-solo", function(){
 	return {
 		restrict: "E",
 		templateUrl: "partials/page-2-partial.html",
-		controller: "Page2CTL"
+		controller: "using-soloCTL"
 	};
 })
 

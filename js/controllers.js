@@ -20,7 +20,7 @@ angular.module('myApp.controllers', [])
 
 })
 
-.controller('Page2CTL', function(){
+.controller('using-soloCTL', function(){
 
 })
 
