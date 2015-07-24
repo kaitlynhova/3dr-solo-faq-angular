@@ -17,16 +17,16 @@ $routeProvider.when('/why-rad', {
 
 ###Add this to **home-partial.html**
 ```
- <!-- ROW ITEM -->
-    <div class="row faq-item" ng-class="{active: isActive('/so-rad')}">
-      <div class="col-xs-10"> <p>Why is this so rad?</p></div>
-      <div class="col-xs-2">
-        <a href="#/why-rad">
-          <img class="arrow" src="img/angle-right.svg">
-        </a>
-      </div>
+  <!-- ROW ITEM -->
+  <div class="row faq-item" ng-class="{active: isActive('/why-rad')}">
+    <div class="col-xs-10"> <p class="list-title">Why rad?</p></div>
+    <div class="col-xs-2">
+      <a href="#/why-rad">
+        <img class="arrow" src="img/angle-right.svg">
+      </a>
     </div>
- <!-- /ROW ITEM—>
+  </div>
+  <!-- /ROW ITEM-->
 ```
 ###Add this new file to Partials folder:
 
