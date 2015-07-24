@@ -12,10 +12,17 @@ p{
   color: #666767;
 }
 
+.li-title{
+  font-weight: 600 !important;
+  line-height: 19px;
+}
+
 /* GENERAL */
 
 li{
   font-weight: 600;
+  color: #666767;
+  font-size: 17px;
 }
 
 .my_list{
@@ -55,10 +62,12 @@ a{
   position: relative;
   top: 3px;
   font-size: 18px;
+  line-height: 30px;
 }
 
 .faq-content{
   padding: 15px 0px;
+  line-height: 30px;
 }
 
 .faq-content p {
