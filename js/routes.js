@@ -13,6 +13,12 @@ angular.module('myApp.routes', [])
 		templateUrl: 'partials/why-phu-partial.html',
 		controller: 'why-phuCTL'
 	});
+
+  $routeProvider.when('/why-rad', {
+    templateUrl: 'partials/why-rad-partial.html',
+    controller: 'why-radCTL'
+  });
+
   $routeProvider.otherwise({
 		redirectTo:'/'
 	}); //If 404, send to homepage
