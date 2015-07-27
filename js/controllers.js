@@ -36,6 +36,10 @@ angular.module('myApp.controllers', [])
 
 })
 
+//<!-- ADD MORE CONTROLLERS-->
+
+//<!-- /ADD MORE CONTROLLERS-->
+
 $locationProvider.html5Mode(true);
 
 ;

@@ -26,6 +26,10 @@ angular.module('myApp.routes', [])
     controller: 'rangeCTL'
   });
 
+  //<!-- ADD MORE ROUTES-->
+
+  //<!-- /ADD MORE ROUTES-->
+
   $routeProvider.otherwise({
 		redirectTo:'/'
 	}); //If 404, send to homepage
