@@ -1,6 +1,6 @@
 #How to run the project
 
-Pull down the project and run a [MAMP](https://www.mamp.info/en/) server on the folder. 
+Pull down the project and run a [MAMP](https://www.mamp.info/en/) server on the folder.
 The project should be visible at http://localhost:8888/ on your computer.
 
 #How to add faq page/tab (PHU example)
@@ -21,7 +21,7 @@ phu-partial.html
 ```
 
 ##3.  Connect them with routes
-####in *routes.js* add: 
+####in *routes.js* add:
 ```
 $routeProvider.when('/phu', {
   templateUrl: 'partials/phu-partial.html',
@@ -33,14 +33,13 @@ $routeProvider.when('/phu', {
 ####Add this to *home-partial.html*
 ```
   <!-- ROW ITEM -->
-  <div class="row faq-item" ng-class="{active: isActive('/phu')}">
-    <div class="col-xs-10"> <p class="list-title">Why is phu so awesome?</p></div>
-    <div class="col-xs-2">
-      <a href="#/phu">
+  <a href="#/phu">
+    <div class="row faq-item" ng-class="{active: isActive('/phu')}">
+      <div class="col-xs-10"> <p class="list-title">Why is phu so awesome?</p></div>
+      <div class="col-xs-2">
         <img class="arrow" src="img/angle-right.svg">
-      </a>
+      </div>
     </div>
-  </div>
+  </a>
   <!-- /ROW ITEM-->
 ```
-
