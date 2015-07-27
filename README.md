@@ -6,14 +6,14 @@ The project should be visible at http://localhost:8888/ on your computer.
 #How to add faq page/tab (PHU example)
 
 ##1. Add page partial
-####Add this new file to Partials folder:
+####Add this new file to *partials* folder:
 
 phu-partial.html
 
 ^^in this file, you can copy any other "what-evs-partial.html" and replace with whatever code you want
 
 ##2.  Give it a controller
-####in **controllers.js** add
+####in *controllers.js* add
 ```
 .controller(‘phuCTL', function(){
 
@@ -21,7 +21,7 @@ phu-partial.html
 ```
 
 ##3.  Connect them with routes
-####in ** routes.js ** add: 
+####in *routes.js* add: 
 ```
 $routeProvider.when('/phu', {
   templateUrl: 'partials/phu-partial.html',
@@ -30,7 +30,7 @@ $routeProvider.when('/phu', {
 ```
 
 ###4.  Add the content onto the home page
-####Add this to **home-partial.html**
+####Add this to *home-partial.html*
 ```
   <!-- ROW ITEM -->
   <div class="row faq-item" ng-class="{active: isActive('/phu')}">
