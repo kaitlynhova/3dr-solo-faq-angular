@@ -1,6 +1,9 @@
 angular.module('myApp.routes', [])
 
-.config(function($routeProvider) {
+.config(function($routeProvider, $locationProvider) {
+  // use the HTML5 History API
+  $locationProvider.html5Mode(true);
+
   $routeProvider.when('/', {
 		templateUrl: 'partials/home-partial.html',
 		controller: 'HomeCTL'
