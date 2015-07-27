@@ -5,19 +5,25 @@ The project should be visible at http://localhost:8888/ on your computer.
 
 #How to add faq page/tab (PHU example)
 
-###in ** routes.js ** add: 
-```
-$routeProvider.when('/phu', {
-  templateUrl: 'partials/phu-partial.html',
-  controller: ‘phuCTL'
-});
-```
+###Add this new file to Partials folder:
+
+phu-partial.html
+
+^^in this file, you can copy any other "what-evs-partial.html" and replace with whatever code you want
 
 ###in **controllers.js** add
 ```
 .controller(‘phuCTL', function(){
 
 })
+```
+
+###in ** routes.js ** add: 
+```
+$routeProvider.when('/phu', {
+  templateUrl: 'partials/phu-partial.html',
+  controller: ‘phuCTL'
+});
 ```
 
 ###Add this to **home-partial.html**
@@ -33,10 +39,4 @@ $routeProvider.when('/phu', {
   </div>
   <!-- /ROW ITEM-->
 ```
-###Add this new file to Partials folder:
-
-
-phu-partial.html
-
-^^in this file, you can copy any other "what-evs-partial.html" and replace with whatever code you want
 
