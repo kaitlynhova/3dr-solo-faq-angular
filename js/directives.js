@@ -5,14 +5,6 @@
 
 angular.module('myApp.directives', [])
 
-.directive("navbar", function() {
-	return {
-		restrict: "E",
-		templateUrl: "partials/navbar-partial.html",
-		controller: 'NavbarCTL'
-	};
-})
-
 .directive("home", function(){
 	return {
 		restrict: "E",
@@ -26,14 +18,6 @@ angular.module('myApp.directives', [])
 		restrict: "E",
 		templateUrl: "partials/page-3-partial.html",
 		controller: "why-phuCTL"
-	};
-})
-
-.directive("footer", function(){
-	return {
-		restrict: "E",
-		templateUrl: "partials/footer-partial.html",
-		controller: "FooterCTL"
 	};
 })
 

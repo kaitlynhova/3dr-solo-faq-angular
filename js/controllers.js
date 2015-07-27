@@ -40,6 +40,4 @@ angular.module('myApp.controllers', [])
 
 //<!-- /ADD MORE CONTROLLERS-->
 
-$locationProvider.html5Mode(true);
-
 ;
