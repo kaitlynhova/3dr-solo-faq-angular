@@ -29,7 +29,7 @@ $routeProvider.when('/phu', {
 });
 ```
 
-###4.  Add the content onto the home page
+##4.  Add the content onto the home page
 ####Add this to *home-partial.html*
 ```
   <!-- ROW ITEM -->
