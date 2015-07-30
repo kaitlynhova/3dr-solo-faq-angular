@@ -29,6 +29,11 @@ angular.module('myApp.routes', [])
     controller: 'rangeCTL'
   });
 
+  $routeProvider.when('/go-pro', {
+    templateUrl: 'partials/go-pro-partial.html',
+    controller: 'go-proCTL'
+  });
+
   //<!-- ADD MORE ROUTES-->
 
   //<!-- /ADD MORE ROUTES-->

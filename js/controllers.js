@@ -36,6 +36,10 @@ angular.module('myApp.controllers', [])
 
 })
 
+.controller('go-proCTL', function(){
+
+});
+
 //<!-- ADD MORE CONTROLLERS-->
 
 //<!-- /ADD MORE CONTROLLERS-->
