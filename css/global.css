@@ -14,7 +14,6 @@ p{
 
 img{
   width: 100%;
-  padding: 20px;
 }
 
 .li-title{
@@ -69,6 +68,10 @@ a{
 .faq-content{
   padding: 15px 0px;
   line-height: 30px;
+}
+
+.faq-content img{
+  padding: 20px;
 }
 
 .faq-content p {
